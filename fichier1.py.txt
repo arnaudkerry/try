@@ -1,34 +1,27 @@
-def fonction()
-    stringtest = Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-    Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
-    Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor.
-    Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.
-    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. 
-    Maecenas adipiscing ante non diam sodales hendrerit.
-
-
-    stringtest2 = Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis ipsum vel porta maximus. Cras aliquam elit eget quam facilisis, semper grvida libero venenatis.
-    Aenean lacus odio, aliquet sed efficitur a, fringilla in turpis. Quisque mi nunc, hendrerit vitae lorem eget, aliquet dictum tellus. Donec sit amet arcu sapien. 
-    Aenean iaculis scelerisque velit, ut commodo elit pharetra non. Duis tincidunt justo a vestibulum bibendum. Ut varius lorem et turpis aliquet, sit amet blandit nibh efficitur.
-    Praesent consectetur a massa sit amet tincidunt. Sed faucibus blandit mi, sed finibus felis consectetur eu. Nulla fringilla rutrum luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Proin sed mauris quis orci efficitur fringilla. Integer feugiat dui quis magna posuere, id pellentesque urna euismod.
-
-    print(stringtest, n , stringtest2)
-
-    # fonction compteur
-def fonction1(stringtest3)
-    inta = 0
-    intb = 0
-    while inta != len(stringtest3)
-        inta += 1
-    print (le nombre de lettres = ,inta )
+# fonction compteur
+def fonction1(stringtest):
+    inty = 0
+    into = 0
+    while inty != len(stringtest):
+        inty += 1
+        into += 50
+    print ("le nombre de lettres = ",inty , "b = ",  into)
 
 # on lance les fonctions
-stringtest3 = Nunc molestie, leo in porttitor egestas, augue erat feugiat nisl, quis dapibus eros leo eleifend lorem.
-			Fusce imperdiet id odio vel semper. Aliquam varius elementum magna, non facilisis ipsum molestie nec. 
-			Nunc eget justo rutrum, posuere orci at, aliquam tortor. Suspendisse at sem eu turpis ultrices eleifend. Praesent nec fermentum nunc. 
-			In hendrerit tortor eu dui venenatis faucibus. Etiam efficitur tellus eu velit porttitor, et ultricies dolor pellentesque. 
-			Integer consequat sit amet mauris tristique efficitur. Duis pulvinar turpis non urna posuere, non rhoncus dolor feugiat. 
-			Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed placerat eget tellus et faucibus.
-			Nulla gravida lacus lorem. In at lacus tempus lacus tincidunt semper. Nulla sollicitudin venenatis convallis.
-fonction1(stringtest3)
+stringtest2 = "Nunc molestie, leo in porttitor egestas, augue erat feugiat nisl, quis dapibus eros leo eleifend lorem.
+ Fusce imperdiet id odio vel semper. Aliquam varius elementum magna, non facilisis ipsum molestie nec.
+ Nunc eget justo rutrum, posuere orci at, aliquam tortor. Suspendisse at sem eu turpis ultrices eleifend.
+ Praesent nec fermentum nunc. In hendrerit tortor eu dui venenatis faucibus. 
+Etiam efficitur tellus eu velit porttitor, et ultricies dolor pellentesque. 
+Integer consequat sit amet mauris tristique efficitur. Duis pulvinar turpis non urna posuere, non rhoncus dolor feugiat.
+ Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed placerat eget tellus et faucibus.
+ Nulla gravida lacus lorem. In at lacus tempus lacus tincidunt semper. Nulla sollicitudin venenatis convallis."
+stringtest = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. 
+Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.
+ Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+ Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. 
+Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.
+ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh.
+ Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit."
+text = stringtest + stringtest2
+fonction1(text)
